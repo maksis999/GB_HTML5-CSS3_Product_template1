@@ -516,13 +516,6 @@ body {
     box-sizing: border-box;
 }
 
-.main-footer:after {
-    content: "";
-    display: block;
-    width: 100%;
-    clear: both;
-}
-
 .main-footer_title {
     display: block;
     width: 100%;
