@@ -516,6 +516,13 @@ body {
     box-sizing: border-box;
 }
 
+.main-footer:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
 .main-footer_title {
     display: block;
     width: 100%;
@@ -628,7 +635,7 @@ input:-ms-input-placeholder  */
     width: 241px;
     margin: 0;
     box-sizing: border-box;
-    border: 1px solid black;
+    /*    border: 1px solid black;*/
     color: rgb(255, 255, 255);
 }
 
@@ -653,7 +660,7 @@ input:-ms-input-placeholder  */
     width: 24px;
     height: 24px;
     box-sizing: border-box;
-    border: 1px solid black;
+    /*    border: 1px solid black;*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -663,27 +670,26 @@ input:-ms-input-placeholder  */
 }
 
 .main-footer-contacts-link:nth-of-type(1):before {
-    border: 1px solid #fff;
-    /*    background-image: url('https://s1.iconbird.com/ico/2014/1/622/w512h5121390854473skype512.png');*/
+    background-image: url(../img/skype_icon.png);
 }
 
 .main-footer-contacts-link:nth-of-type(2):before {
-    background-image: url('');
+    background-image: url('../img/icq_icon.png');
 }
 
 .main-footer-contacts-link:nth-of-type(3):before {
-    background-image: url('');
+    background-image: url('../img/email_icon.png');
 }
 
 .main-footer-contacts-link:nth-of-type(4):before {
-    background-image: url('');
+    background-image: url('../img/phone_icon.png');
 }
 
 .main-footer-contacts-icons {
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
-    border: 1px solid red;
+    /*    border: 1px solid red;*/
 }
 
 .main-footer-contacts-net {
@@ -691,5 +697,62 @@ input:-ms-input-placeholder  */
     width: 42px;
     height: 42px;
     box-sizing: border-box;
-    border: 1px solid #fff;
+    /*    border: 1px solid #fff;*/
+    background-image: url(../img/social_buttons_338.png)
+}
+
+.icon1 {
+    background-position: -1px 0;
+}
+
+.icon1:hover {
+    background-position: -1px 0;
+    filter: contrast(0.1);
+}
+
+.icon2 {
+    background-position: -50px 0;
+}
+
+.icon2:hover {
+    background-position: -50px 0;
+    filter: contrast(0.1);
+}
+
+.icon3 {
+    background-position: -99px 0;
+}
+
+.icon3:hover {
+    background-position: -99px 0;
+    filter: contrast(0.1);
+}
+
+.icon4 {
+    background-position: -149px 0;
+}
+
+.icon4:hover {
+    background-position: -149px 0;
+    filter: contrast(0.1);
+}
+
+.icon5 {
+    background-position: -198px 0;
+}
+
+.icon5:hover {
+    background-position: -198px 0;
+    filter: contrast(0.1);
+}
+
+.copyright {
+    width: 100%;
+    padding: 10px 0 5px 0;
+}
+
+.copyright__string {
+    display: block;
+    text-align: center;
+    width: 100%;
 }
